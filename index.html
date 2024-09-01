@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronald Ramirez - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Ronald Ramirez Espinoza" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ronald Ramirez Espinoza">Ronald Ramirez<br>Espinoza</h1>
+
+          <p class="title">PMP® | PSM™ | Chemical Engineer<br>Programming Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ronaldramir@gmail.com" class="contact-link">ronaldramir@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+50686041571" class="contact-link">+506 86041571</a>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Grecia, Costa Rica </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ronaldramir" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/ronaldramir" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>  
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://wa.me/50686041571" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+
+
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Ronald Ramírez Espinoza, a certified chemical engineer (PMP® and PSM I) with a track record of successfully leading and executing complex projects. My expertise in fluid mechanics, process control, and data analysis has sharpened my problem-solving skills, enabling me to implement effective industrial systems.
+
+          </p>
+          Recently, I’ve expanded my skill set to include programming, driven by a passion for extracting actionable insights from data. I built this website as a testament to my commitment to lifelong learning and my ability to quickly master new technologies.
+
+          <p>
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Professional Interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-chem.svg
+                " alt="Chemical Engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Chemical Engineering</h4>
+
+                <p class="service-item-text">
+                  Leveraging fluid mechanics and process control expertise to optimize industrial operations. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-datascience.svg" alt="Data Science icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Passionate about applying data science to solve complex problems and extract valuable insights.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-projects.svg" alt="Project Management icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+
+                <p class="service-item-text">
+                  PMP® experienced on delivering successful global initiatives, ensuring strict adherence to project constraints and standards.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-stats.svg" alt="Statistics icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistics</h4>
+
+                <p class="service-item-text">
+                  Eager to apply statistical analysis for data-driven insights and informed decision making.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Senior Project Engineer | Atmos International </h4>
+                <span>August 2021- Present</span>
+                <ul class="nested-list">
+                  <li>Led the implementation of hardware and software for leak detection systems with global teams, ensuring adherence to project scope, budget, timeline, and quality standards.</li>
+                  <li>Collaborated with diverse client departments, including maintenance, process control, EHS, IT, contractors and vendors, to achieve project milestones and resolve difficult situations.</li>
+                  <li>Coordinated efforts with R&D, software development, and hardware engineering teams to ensure seamless integration of software and hardware components, including user interface, algorithms, and data handling.</li>
+                  <li>Assisted in determining test methodology and hardware installation for the acceptance tests of leak detection systems to ensure user requirements were met and ensure project success.</li>
+                  <li>Mentored and reviewed documentation, scripts, and software configurations for associate and junior engineers, emphasizing a commitment to lifelong learning and enthusiastic collaboration.</li>
+                </ul>
+              </li>
+  
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Project Engineer | Atmos International</h4>
+                <span>October 2018- August 2021</span>
+                <ul class="nested-list">
+                  <li>Utilized fluid mechanics and process control expertise to implement precise leak detection systems, demonstrating problem-solving skills in resolving design and process-related issues.</li>
+                  <li>Prepared and presented progress reports, contributing to project meetings, and minimizing risks by proactively identifying and addressing potential issues.</li>
+                  <li>Addressed non-conformances identified in quality audits by implementing corrective actions including the creation of feature requests and bug reports.</li>
+                  <li>Developed and reviewed quality documents such as Functional Design Specifications, Factory and Site Acceptance Tests, and Operational Manuals.</li>
+                  <li>Demonstrated English, Portuguese, and Spanish proficiency during on-site service visits and training for system users.</li>
+                </ul> 
+              </li>
+  
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Maintenance Engineer: | Atmos International </h4>
+                <span>September 2017 – October 2018</span>
+  
+                <ul class="nested-list">
+                  <li>Analyzed pipeline hydraulic systems and created pipeline instrumentation schematics, contributing to improved system performance.</li>
+                  <li>Provided detailed maintenance reports to clients, advising system administrators on potential problems and opportunities for improvement.</li>
+                  <li>Conducted comprehensive software and hardware troubleshooting, effectively diagnosing, and resolving complex issues to minimize system downtime.</li>
+                </ul> 
+              </li>
+            </ol>
+          </section>
+
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of Costa Rica</h4>
+              <span>December 2018</span>
+              <p class="timeline-text"> Bachelor in Chemical Engineering</p>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Supervised Machine Learning: Regression and Classification</h4>
+              <span>2024</span>
+              <p class="timeline-text">DeepLearning.AI</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Lean Six Sigma Green Belt</h4>
+              <span>2024</span>
+              <p class="timeline-text">PXS School of Excellence</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Analyze Financial Data with Python and SQL Skill Path</h4>
+              <span>2024</span>
+              <p class="timeline-text">Codecademy</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Learn Design Thinking: Ideation Course</h4>
+              <span>2024</span>
+              <p class="timeline-text">Codecademy</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Professional Scrum Master I Certification (PSM I TM) </h4>
+              <span>2023</span>
+              <p class="timeline-text">Scrum.org</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Project Management Professional Certification (PMP®) </h4>
+              <span>2022</span>
+              <p class="timeline-text">PMI</p>
+            </li>
+          </ol>
+        </section>
+
+
+
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Languages</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="90">Fluent</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Portuguese</h5>
+                <data value="90">Fluent</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Spanish</h5>
+                <data value="100">Native</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ronaldramir/Investigating_Netflix_Movies.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/netflix.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Investigating Netflix Movies</h3>
+                <p class="project-category">Intermediate Python</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ronaldramir/Exploring_NYC_Public_School_Test_Result_Scores.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/schoolbus.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">NYC Public School SAT Performance Analysis</h3>
+                <p class="project-category">Data Manipulation with Pandas</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/ronaldramir/Visualizing_the_History_of_Nobel_Prize_Winners.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/nobelprize.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Visualizing the History of Nobel Prize Winners</h3>
+                <p class="project-category">Pandas & Data Visualization with Matplotlib</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/crautos.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">CR Auto Insights: Analyzing Used Car Market Trends in Costa Rica</h3>
+                <p class="project-category">Python Web Scraping</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/ronaldramir/Multiple_Linear_Regression.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/bostonhouses.jpg" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">Predicting Boston Home Values: A Multiple Linear Regression Analysis</h3>
+                <p class="project-category">Supervised Machine Learning</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/ronaldramir/Simple_Linear_Regression.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/gradient.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">Boston Housing Price Prediction with Linear Regression: Gradient Descent vs Scikit-learn</h3>
+                <p class="project-category">Supervised Machine Learning</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ronaldramir/Logistic-Regression_on_Titanic_Dataset.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/titanic.jpg" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Unlock the Secrets of Titanic Survival with a Logistic Regression Model</h3>
+                <p class="project-category">Supervised Machine Learning</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/ronaldramir/Analyzing_Crime_in_Los_Angeles.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/crime.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Crime Analysis: Hourly Patterns, Night Crime Hotspots, and Victim Age Demographics</h3>
+                <p class="project-category">Exploratory Data Analysis in Python</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/airbnb.jpeg" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Exploring Airbnb Market Trends</h3>
+                <p class="project-category">Preparing Data for Modeling in Python</p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
